@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int psum = 0  ;
+        int nsum = 0 ; 
+	    for ( int y= 1  ; y<=6 ;y++ ) {
+	         Scanner scan = new Scanner(System.in);
+	        System.out.print("Enter any number: ");
+	                int num = scan.nextInt();
+	       if ( num > 0 ) {
+	       psum += num ;
+	       System.out.println(" sum of positive numbers are :" +psum);
+	       }
+	       else {
+	       nsum += num ;
+	       System.out.println("sum of negative numbers are :" + nsum);
+
+}
+}
+}
+    
+}
